@@ -74,7 +74,7 @@ const mockEpisodes = {
     ]
 }
 
-test("selecting season fetches episodes and renders it to the DOM", async () => {    
+test("selecting season fetches episodes and renders them", async () => {    
     mockFetchShow.mockResolvedValueOnce(mockEpisodes);
     
     // const { getByText, queryAllByTestId } = render(<App />);  
